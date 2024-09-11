@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 // Configurar CORS, definiendo los orígenes permitidos
-const allowedOrigins = ['http://localhost:3000', 'http://localhost:8080','http://127.0.0.1:5500'];
+const allowedOrigins = ['http://localhost:3000', 'http://localhost:8080','http://127.0.0.1:5500','http://localhost:5501'];
 app.use(cors({
   origin: function (origin, callback) {
     // Permitir solicitudes desde los dominios en la lista
