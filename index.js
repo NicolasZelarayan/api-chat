@@ -52,7 +52,6 @@ app.post('/ask', async (req, res) => {
 
     const run = await openai.beta.threads.runs.createAndPoll(thread.id, {
       assistant_id: 'asst_qvY3YVUh2u3Evu16hcGXgqtP',
-      stream : true,
     });
 
     if (run.status === 'completed') {
