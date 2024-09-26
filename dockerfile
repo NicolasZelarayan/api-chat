@@ -18,8 +18,6 @@ EXPOSE 3000
 
 # Establecer las variables de entorno necesarias
 ENV NODE_ENV=production
-ENV OPENAI_API_KEY=your_openai_api_key
-ENV MY_API_KEY=your_custom_api_key
 
 # Comando para ejecutar la aplicación
 CMD ["node", "index.js"]
