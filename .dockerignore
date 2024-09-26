@@ -1,0 +1,21 @@
+# Ignorar node_modules ya que se instalan dentro del contenedor
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignorar archivos y carpetas de control de versiones
+.git
+.gitignore
+
+# Ignorar directorios temporales y de caché
+.cache
+coverage
+.tmp
+
+# Ignorar archivos de configuración del editor o IDE
+.vscode/
+.idea/
+*.swp
+
+# Archivos de entorno local
+.env
